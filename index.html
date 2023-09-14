@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <title>Temperature Conversion</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <h1>Temperature Conversion</h1>
+    </div>
+    <div class="wrapper">
+        <div class="container">
+            <label for="celsius"><b>CELSIUS</b></label>
+            <input type="number" placeholder="celsius" id="celsius" oninput= "celToFar()">
+        </div>
+        <div class="container">
+            <label for="fahrenheit">FAHRENHEIT</label>
+            <input type="number" placeholder="fahrenheit" id="fahrenheit" oninput = "farToCel()">
+        </div>
+    </div>
+    <div class="reset">
+        <button id="clear" class="re-b">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
